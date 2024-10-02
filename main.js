@@ -195,6 +195,20 @@ function mostrarZapatosM() {
 }
 
 
+function mostrarZapatosBebes() {
+    // Oculta la sección de ropa de bebe
+    var seccionMujeres = document.getElementById('bebes');
+    seccionMujeres.classList.remove('activa');
+    seccionMujeres.classList.add('ocultar');
+    
+    // Muestra la nueva sección de zapatos
+    var seccionZapatos = document.getElementById('zapatos-bebes');
+    seccionZapatos.classList.remove('ocultar');
+    seccionZapatos.classList.add('activa');
+}
+
+
+
 
 
 
